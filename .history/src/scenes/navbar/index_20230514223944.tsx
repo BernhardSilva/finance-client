@@ -14,10 +14,10 @@ const Navbar = (props: Props) => {
 			{/* LEFT SIDE */}
 			<FlexBetween gap="0.75rem">
 				<PixIcon sx={{ fontSize: "28px" }}>
+						Finanseer
 					<Typography variant="h4" fontSize="16px">
 					</Typography>
 				</PixIcon>
-				Finanseer
 			</FlexBetween>
 			{/* RIGHT SIDE */}
 			<FlexBetween gap="0.75rem">

@@ -15,9 +15,9 @@ const Navbar = (props: Props) => {
 			<FlexBetween gap="0.75rem">
 				<PixIcon sx={{ fontSize: "28px" }}>
 					<Typography variant="h4" fontSize="16px">
+						Finanseer
 					</Typography>
 				</PixIcon>
-				Finanseer
 			</FlexBetween>
 			{/* RIGHT SIDE */}
 			<FlexBetween gap="0.75rem">
@@ -27,7 +27,7 @@ const Navbar = (props: Props) => {
 							color: selected === "dashboard" ? "inherit" : palette.grey[700],
 							textDecoration: "inherit"
 						}}>
-						Dashboard
+						dashboard
 					</Link>
 				</Box>
 				<Box sx={{ '&:hover': { color: palette.primary[100] } }}>
@@ -36,7 +36,7 @@ const Navbar = (props: Props) => {
 							color: selected === "predictions" ? "inherit" : palette.grey[700],
 							textDecoration: "inherit"
 						}}>
-						Predictions
+						predictions
 					</Link>
 				</Box>
 			</FlexBetween>
