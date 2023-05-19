@@ -1,1 +1,0 @@
-import {Palette, PaletteColor} from '@mui/material/stylesPalette';
