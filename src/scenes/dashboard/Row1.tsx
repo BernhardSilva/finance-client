@@ -45,13 +45,13 @@ const Row1 = () => {
                     >
                         <defs>
                             <linearGradient id="colorRevenue" x1="0" y="0" x2="0" y2="1">
-                                <stop offset="5%" stopColor={palette.primary[300]} stopOpacity={0.5} />
+                                <stop offset="4%" stopColor={palette.primary[300]} stopOpacity={0.5} />
                                 <stop offset="95%" stopColor={palette.primary[300]} stopOpacity={0} />
                             </linearGradient>
                         </defs>
                         <defs>
                             <linearGradient id="colorExpenses" x1="0" y="0" x2="0" y2="1">
-                                <stop offset="5%" stopColor={palette.secondary[300]} stopOpacity={0.5} />
+                                <stop offset="4%" stopColor={palette.secondary[300]} stopOpacity={0.5} />
                                 <stop offset="95%" stopColor={palette.secondary[300]} stopOpacity={0} />
                             </linearGradient>
                         </defs>
@@ -66,7 +66,7 @@ const Row1 = () => {
 
             {/* Profit and Revenues     */}
             <DashboardBox gridArea="b">
-                <BoxHeader title='Profit and Revenue' subtitle='top line represents profit, bottom line represents revenue' sideText={"+7%"} />
+                <BoxHeader title='Profit and Revenue' subtitle='top line represents profit, bottom line represents revenue' sideText={"+4%"} />
                 <ResponsiveContainer width="100%" height="100%">
                     <LineChart
                         data={revenueExpensesData}
@@ -95,7 +95,7 @@ const Row1 = () => {
 
             {/* Revenue by Month     */}
             <DashboardBox gridArea="c">
-                <BoxHeader title='Revenue month by month' subtitle='graph representing the revenue month by month' sideText={"+5%"} />
+                <BoxHeader title='Revenue month by month' subtitle='graph representing the revenue month by month' sideText={"+4%"} />
                 <ResponsiveContainer>
                     <BarChart
                         width={500}
@@ -110,7 +110,7 @@ const Row1 = () => {
                     >
                         <defs>
                             <linearGradient id="colorRevenue" x1="0" y="0" x2="0" y2="1">
-                                <stop offset="5%" stopColor={palette.primary[300]} stopOpacity={0.8} />
+                                <stop offset="4%" stopColor={palette.primary[300]} stopOpacity={0.8} />
                                 <stop offset="95%" stopColor={palette.primary[300]} stopOpacity={0} />
                             </linearGradient>
                         </defs>
